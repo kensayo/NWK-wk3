@@ -44,13 +44,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Kenny Ortega**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@kensayo](https://github.com/kensayo)
+- Twitter: [@kensayo](https://twitter.com/kensayo)
+- LinkedIn: [Kenny Ortega](https://www.linkedin.com/in/kenny-ortega-3580aa33/)
 
-👤 **Dante Alonso Hernández Tapia**
+👤 **Dante Alonso**
 
 - GitHub: [@DanteAlonsoHT](https://github.com/DanteAlonsoHT)
 - Twitter: [@dante_dante1](https://twitter.com/dante_dante1)

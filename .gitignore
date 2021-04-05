@@ -1,4 +1,4 @@
 # .gitignore
-#node_modules/
-#*.json
-#.hintrc
+node_modules/
+*.json
+.hintrc

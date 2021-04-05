@@ -25,7 +25,7 @@ In the next project we can see the header and footer of Newsweek website, we use
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kensayo.github.io/NWK-wk3/)
 
 ### Install
 

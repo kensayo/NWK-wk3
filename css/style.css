@@ -34,7 +34,7 @@ a:hover {
 }
 
 .f-black {
-  color: #000;
+  color: #000 !important;
 }
 
 .font-roboto {
@@ -50,6 +50,10 @@ a:hover {
   padding: 10px 15px;
   height: 50px;
   color: #fdc7c3;
+}
+
+.navbar a {
+    color: #fdc7c3;    
 }
 
 .nav-logo {

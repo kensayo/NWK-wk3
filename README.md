@@ -4,9 +4,9 @@
 
 > Newsweek clone Milestone 1 was created using Bootstrap.
 
-![Desktop-Version](./img/Newsweek-Milestone1-Desktop.png)
-![Tablet-Version](./img/Newsweek-Milestone1-Tablet.png)
-![Mobile-Version](./img/Newsweek-Milestone1-Mobile.png)
+![Desktop-Version](img/Newsweek-Milestone1-Desktop.PNG)
+![Tablet-Version](img/Newsweek-Milestone1-Tablet.PNG)
+![Mobile-Version](img/Newsweek-Milestone1-Mobile.PNG)
 
 In the next project we can see the header and footer of Newsweek website, we used bootstrap and a few lines of code in CSS to improve the default Bootstrap designs. 
 

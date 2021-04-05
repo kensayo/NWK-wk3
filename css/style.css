@@ -88,13 +88,6 @@ a {
   border-right: solid 1px #d9d9d9;
 }
 
-.footer-list-links li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 14px;
-  font-weight: 500;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -106,6 +99,13 @@ a:hover {
 
 .nav-list a:hover {
   color: #f72210;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .no-border {

@@ -132,3 +132,46 @@ a:hover {
         font-size: 18px;
     }
 }
+
+strong,
+small {
+  color: #666;
+}
+
+small {
+  font-weight: 500;
+}
+
+.bx::before {
+  font-size: 32px;
+  padding: 0 4px;
+  color: #666;
+}
+
+.bx:first-child::before {
+  padding-left: 0;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-list-links li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-list-links li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-list-links li:last-child {
+    border: none;
+  }
+}

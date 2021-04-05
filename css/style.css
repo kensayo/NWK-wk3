@@ -5,22 +5,6 @@ a {
   text-decoration: none;
 }
 
-.footer-list-links li a {
-    text-decoration: none;
-    color: #666;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  cursor: pointer;
-}
-
 .bg-color-red {
   background-color: #f72210;
 }
@@ -53,7 +37,7 @@ a:hover {
 }
 
 .navbar a {
-    color: #fdc7c3;    
+  color: #fdc7c3;
 }
 
 .nav-logo {
@@ -115,6 +99,22 @@ a:hover {
 .search {
   color: rgba(0, 0, 0, 0.55);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {

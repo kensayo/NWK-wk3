@@ -97,15 +97,15 @@ a:hover {
   cursor: pointer;
 }
 
-.nav-list a:hover {
-  color: #f72210;
-}
-
 .footer-list-links li a {
   text-decoration: none;
   color: #666;
   font-size: 14px;
   font-weight: 500;
+}
+
+.nav-list a:hover {
+  color: #f72210;
 }
 
 .no-border {

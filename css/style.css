@@ -22,6 +22,10 @@ a:hover {
   color: #fff;
 }
 
+.f-black {
+    color: #000;
+}
+
 .font-roboto {
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -66,7 +70,17 @@ a:hover {
 }
 
 .nav-list {
-    
+    height: 44px;
+}
+
+.nav-list-item {
+  font-size: 19px;
+  border-right: solid 1px #d9d9d9;
+  padding: 0;
+}
+
+.no-border {
+    border: none;
 }
 
 @media (min-width: 992px) {

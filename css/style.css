@@ -181,3 +181,7 @@ small {
     border: none;
   }
 }
+
+.test {
+    background-color: chocolate;
+}

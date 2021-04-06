@@ -146,12 +146,13 @@ a:hover {
   }
 }
 
-strong,
-small {
+label strong {
   color: #666;
+  font-weight: bold;
 }
 
 small {
+  color: #666;
   font-weight: 500;
 }
 

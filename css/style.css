@@ -181,3 +181,15 @@ small {
     border: none;
   }
 }
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: 1px solid #807f84;
+}
+
+.input-search {
+  width: 66px;
+}

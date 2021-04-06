@@ -33,6 +33,10 @@ a:hover {
   color: #fff;
 }
 
+.f-blue {
+  color: #3581f4;
+}
+
 .f-gray {
   color: #807f84;
 }
@@ -84,6 +88,10 @@ a:hover {
   font-size: 14px;
 }
 
+.fs-13 {
+  font-size: 13px;
+}
+
 .login-nav {
   color: #fff;
   font-weight: 700;
@@ -125,7 +133,10 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
 
 .debate-vs::before { 
   height: 3px;

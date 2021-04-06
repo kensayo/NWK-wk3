@@ -58,6 +58,16 @@ a:hover {
   margin: 0 auto;
 }
 
+.navbar {
+  padding: 10px 15px;
+  height: 50px;
+  color: #fdc7c3;
+}
+
+.navbar a {
+  color: #fdc7c3;
+}
+
 .nav-logo {
   object-fit: cover;
   width: 132px;
@@ -112,6 +122,22 @@ a:hover {
 .nav-list-item {
   font-size: 19px;
   border-right: solid 1px #d9d9d9;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .nav-list a:hover {
@@ -183,12 +209,13 @@ a:hover {
   }
 }
 
-strong,
-small {
+label strong {
   color: #666;
+  font-weight: bold;
 }
 
 small {
+  color: #666;
   font-weight: 500;
 }
 
@@ -217,4 +244,16 @@ small {
   .footer-list-links li:last-child {
     border: none;
   }
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: 1px solid #807f84;
+}
+
+.input-search {
+  width: 66px;
 }

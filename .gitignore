@@ -3,3 +3,4 @@ node_modules/
 hint-report/
 *.json
 .hintrc
+*.md

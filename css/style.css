@@ -234,6 +234,22 @@ small {
   color: #000;
 }
 
+.img-card {
+  position: relative;
+}
+
+.topic {
+  background-color: #fffe;
+  padding: 4px 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.title-myturns {
+  letter-spacing: 20;
+}
+
 @media screen and (min-width: 992px) {
   .footer-list-links li {
     border-right: 1px solid #d9d9d9;

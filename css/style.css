@@ -5,13 +5,6 @@ a {
   text-decoration: none;
 }
 
-.footer-list-links li a {
-    text-decoration: none;
-    color: #666;
-    font-size: 14px;
-    font-weight: 500;
-  }
-
 a:visited {
   text-decoration: none;
 }
@@ -19,6 +12,17 @@ a:visited {
 a:hover {
   color: black;
   cursor: pointer;
+}
+
+.navbar a {
+  color: #fdc7c3;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .link-red:hover {
@@ -30,7 +34,7 @@ a:hover {
 }
 
 .f-white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .f-blue {
@@ -52,16 +56,6 @@ a:hover {
 .main-container {
   max-width: 1310px;
   margin: 0 auto;
-}
-
-.navbar {
-  padding: 10px 15px;
-  height: 50px;
-  color: #fdc7c3;
-}
-
-.navbar a {
-    color: #fdc7c3;    
 }
 
 .nav-logo {
@@ -138,7 +132,7 @@ a:hover {
   line-height: 18px;
 }
 
-.debate-vs::before { 
+.debate-vs::before {
   height: 3px;
   border-top: 1px solid #d6d6d6;
   border-bottom: 1px solid #d6d6d6;
@@ -170,6 +164,17 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
+}
+
+.sign-up {
+  max-width: 278px;
+  padding: 20px;
+}
+
+.icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 25px;
+  width: 25px;
 }
 
 @media (min-width: 768px) {
@@ -212,9 +217,4 @@ small {
   .footer-list-links li:last-child {
     border: none;
   }
-}
-
-.test {
-    background-color: chocolate;
-    height: 500px;
 }

@@ -1,11 +1,158 @@
 @import "reset.css";
+@import "fonts.css";
 
-strong,
-small {
+a {
+  text-decoration: none;
+}
+
+.bg-color-red {
+  background-color: #f72210;
+}
+
+.f-white {
+  color: #fff;
+}
+
+.f-gray {
+  color: #807f84;
+}
+
+.f-black {
+  color: #000 !important;
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 10px 15px;
+  height: 50px;
+  color: #fdc7c3;
+}
+
+.navbar a {
+  color: #fdc7c3;
+}
+
+.nav-logo {
+  object-fit: cover;
+  width: 132px;
+  height: 20px;
+}
+
+.button {
+  background-color: #ffe400;
+  padding: 5px 12px;
+  color: black;
+  border-radius: 15px;
+  margin: 0 15px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.login-nav {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.date {
+  font-weight: 400;
+}
+
+.nav-list {
+  height: 55px;
+  padding-right: 76px;
+}
+
+.border-gray {
+  border-color: #f4f5f7;
+}
+
+.nav-list-bottom {
+  height: 45px;
+}
+
+.nav-list-item {
+  font-size: 19px;
+  border-right: solid 1px #d9d9d9;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
   color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-list a:hover {
+  color: #f72210;
+}
+
+.no-border {
+  border: none;
+}
+
+.search {
+  color: rgba(0, 0, 0, 0.55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 95px;
+  }
+
+  .nav-logo {
+    height: 60px;
+    width: 395px;
+  }
+
+  .navbar::after {
+    position: absolute;
+    top: 95px;
+    right: 0;
+    content: "";
+    display: block;
+    width: 76px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
+
+label strong {
+  color: #666;
+  font-weight: bold;
 }
 
 small {
+  color: #666;
   font-weight: 500;
 }
 
@@ -17,13 +164,6 @@ small {
 
 .bx:first-child::before {
   padding-left: 0;
-}
-
-.footer-list-links li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .footer-list-links li a:hover {
@@ -57,4 +197,16 @@ small {
   .footer-list-links li:last-child {
     border: none;
   }
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: 1px solid #807f84;
+}
+
+.input-search {
+  width: 66px;
 }

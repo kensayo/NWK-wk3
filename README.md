@@ -3,8 +3,10 @@
 # Newsweek clone
 
 > This project is a clone from [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) 
-> It's create using HTHML, CSS & Bootstrap
-> Main target is learn how to use Bootstrap 
+> 
+> It's created using HTML, CSS & Bootstrap
+> 
+> Main target is learn how to use Bootstrap in a develpment enviroment, using classes properly
 
 ## Desktop 💻
 ![Desktop-Version](img/Newsweek-Milestone1-Desktop.PNG)

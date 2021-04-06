@@ -21,6 +21,10 @@ a:hover {
   cursor: pointer;
 }
 
+.link-red:hover {
+  text-decoration: underline red !important;
+}
+
 .bg-color-red {
   background-color: #f72210;
 }

@@ -64,10 +64,6 @@ a:hover {
   color: #fdc7c3;
 }
 
-.navbar a {
-  color: #fdc7c3;
-}
-
 .nav-logo {
   object-fit: cover;
   width: 132px;
@@ -122,22 +118,6 @@ a:hover {
 .nav-list-item {
   font-size: 19px;
   border-right: solid 1px #d9d9d9;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  cursor: pointer;
-}
-
-.footer-list-links li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .nav-list a:hover {

@@ -76,6 +76,10 @@ a:hover {
   font-size: 16px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .login-nav {
   color: #fff;
   font-weight: 700;
@@ -115,6 +119,19 @@ a:hover {
 .search {
   color: rgba(0, 0, 0, 0.55);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.debate-vs::before { 
+  height: 3px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  margin-top: 14px;
 }
 
 @media (min-width: 992px) {
@@ -184,4 +201,5 @@ small {
 
 .test {
     background-color: chocolate;
+    height: 500px;
 }

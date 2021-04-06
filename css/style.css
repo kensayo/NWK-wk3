@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "fonts.css";
 
+body {
+  background-color: #f4f5f6;
+}
 a {
   text-decoration: none;
 }
@@ -56,6 +59,7 @@ a:hover {
 .main-container {
   max-width: 1310px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .navbar {

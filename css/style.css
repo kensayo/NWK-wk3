@@ -5,12 +5,40 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #fdc7c3;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link-red:hover {
+  text-decoration: underline red !important;
+}
+
 .bg-color-red {
   background-color: #f72210;
 }
 
 .f-white {
-  color: #fff;
+  color: #fff !important;
+}
+
+.f-blue {
+  color: #3581f4;
 }
 
 .f-gray {
@@ -58,6 +86,14 @@ a {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .login-nav {
@@ -117,6 +153,22 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.debate-vs::before {
+  height: 3px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  margin-top: 14px;
+}
+
 @media (min-width: 992px) {
   .navbar {
     height: 95px;
@@ -138,6 +190,17 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
+}
+
+.sign-up {
+  max-width: 278px;
+  padding: 20px;
+}
+
+.icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 25px;
+  width: 25px;
 }
 
 @media (min-width: 768px) {

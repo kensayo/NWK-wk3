@@ -137,6 +137,15 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.img-nw-right {
+  height: 110px;
+  width: 110px;
+}
+
+.h4-nw-right {
+  font-size: 17px;
+}
+
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 18px;
@@ -151,6 +160,17 @@ a:hover {
   content: "";
   width: 100%;
   margin-top: 14px;
+}
+
+@media (min-width: 492px) {
+  .img-nw-right {
+    height: 258px;
+    width: 258px;
+  }
+
+  .h4-nw-right {
+    font-size: 21px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -179,6 +199,7 @@ a:hover {
     padding: 0;
     margin: 0;
   }
+  
 }
 
 .sign-up {
@@ -195,6 +216,15 @@ a:hover {
 @media (min-width: 768px) {
   .button {
     font-size: 18px;
+  }
+
+  .img-nw-right {
+    height: 110px;
+    width: 110px;
+  }
+
+  .h4-nw-right {
+    font-size: 17px;
   }
 }
 
@@ -249,6 +279,10 @@ small {
 
   .footer-list-links li:last-child {
     border: none;
+  }
+
+  .img-nw-left {
+    height: 65%;
   }
 }
 

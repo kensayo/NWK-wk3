@@ -227,6 +227,11 @@ small {
   position: relative;
 }
 
+.body-card p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .topic {
   background-color: #fffe;
   padding: 4px 10px;
@@ -257,4 +262,8 @@ input:focus {
 
 .input-search {
   width: 66px;
+}
+
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
 }

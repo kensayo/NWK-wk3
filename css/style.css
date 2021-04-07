@@ -33,6 +33,10 @@ a:hover {
   background-color: #f72210;
 }
 
+.bg-color-gray {
+  background-color: #f4f5f6;
+}
+
 .f-white {
   color: #fff !important;
 }
@@ -279,4 +283,29 @@ input:focus {
   padding-bottom: 100%;
   object-fit: cover;
   background-size: cover;
+}
+
+.itm-1 {
+  background-image: url("https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp");
+}
+
+.itm-2 {
+  background-image: url("https:/d.newsweek.com/en/full/1700564/trmpford.webp");
+}
+
+.itm-3 {
+  background-image: url("https://d.newsweek.com/en/full/1700594/trump-protest-capitol-washington.jpg");
+}
+
+.itm-4 {
+  background-image: url("https://d.newsweek.com/en/full/1706936/fe-american-coup-01-1230457776.jpg");
+}
+.itm-5 {
+  background-image: url("https://d.newsweek.com/en/full/1698197/libya-commander-war-funeral.jpg");
+}
+.itm-6 {
+  background-image: url("https://d.newsweek.com/en/full/1708426/per-london-warrwick-01.jpg");
+}
+.itm-7 {
+  background-image: url("https://d.newsweek.com/en/full/1706934/cul-rhye-01.jpg");
 }

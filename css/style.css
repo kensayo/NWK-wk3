@@ -5,12 +5,40 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #fdc7c3;
+}
+
+.footer-list-links li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link-red:hover {
+  text-decoration: underline red !important;
+}
+
 .bg-color-red {
   background-color: #f72210;
 }
 
 .f-white {
-  color: #fff;
+  color: #fff !important;
+}
+
+.f-blue {
+  color: #3581f4;
 }
 
 .f-gray {
@@ -36,14 +64,14 @@ a {
   color: #fdc7c3;
 }
 
-.navbar a {
-  color: #fdc7c3;
-}
-
 .nav-logo {
   object-fit: cover;
   width: 132px;
   height: 20px;
+}
+
+.section-rankings {
+  margin: auto;
 }
 
 .button {
@@ -58,6 +86,14 @@ a {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .login-nav {
@@ -88,22 +124,6 @@ a {
   border-right: solid 1px #d9d9d9;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  cursor: pointer;
-}
-
-.footer-list-links li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 14px;
-  font-weight: 500;
-}
-
 .nav-list a:hover {
   color: #f72210;
 }
@@ -115,6 +135,22 @@ a:hover {
 .search {
   color: rgba(0, 0, 0, 0.55);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.debate-vs::before {
+  height: 3px;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  margin-top: 14px;
 }
 
 @media (min-width: 992px) {
@@ -138,6 +174,22 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
+
+  .section-rankings {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.sign-up {
+  max-width: 278px;
+  padding: 20px;
+}
+
+.icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 25px;
+  width: 25px;
 }
 
 @media (min-width: 768px) {
@@ -146,7 +198,7 @@ a:hover {
   }
 }
 
-label strong {
+p strong {
   color: #666;
   font-weight: bold;
 }
@@ -171,6 +223,23 @@ small {
   color: #000;
 }
 
+.img-card {
+  position: relative;
+}
+
+.body-card p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topic {
+  background-color: #fffe;
+  padding: 4px 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 @media screen and (min-width: 992px) {
   .footer-list-links li {
     border-right: 1px solid #d9d9d9;
@@ -193,4 +262,8 @@ input:focus {
 
 .input-search {
   width: 66px;
+}
+
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
 }

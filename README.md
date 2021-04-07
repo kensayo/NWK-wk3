@@ -17,7 +17,7 @@
 ## Mobile 📱
 ![Mobile-Version](img/Newsweek-Milestone1-Mobile.PNG)
 
-In the next project we can see the header and footer of Newsweek website, we used bootstrap and a few lines of code in CSS to improve the default Bootstrap designs. 
+In the next project, we can see the header and footer, but we've added more sections in columns for the main content, it's all responsive for mobile, tablet, and desktop layouts, in most cases we used bootstrap classes to the features of our website clone. 
 
 ## Built With 🔨
 

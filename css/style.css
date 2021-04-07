@@ -49,6 +49,10 @@ a:hover {
   color: #000 !important;
 }
 
+.f-red {
+  color: #f72210;
+}
+
 .font-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }

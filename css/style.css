@@ -97,7 +97,7 @@ a:hover {
 }
 
 .fs-15 {
-  font-size: 15px;;
+  font-size: 15px;
 }
 
 .fs-14 {
@@ -277,10 +277,6 @@ a:hover {
 
   .newsletter-container {
     justify-content: start;
-  }
-  
-  #img-subscribe {
-    width: none;
   }
 }
 

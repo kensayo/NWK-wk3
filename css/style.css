@@ -178,6 +178,29 @@ a:hover {
   margin-top: 14px;
 }
 
+.gray-container {
+  min-height: 450px;
+  padding: 30px;
+}
+
+.newsletter-img2 {
+  position: absolute;
+  top: 8px;
+  left: 64px;
+}
+
+.newsletter-container {
+  justify-content: center;
+}
+
+.img-subscribe {
+  background-image: url(../img/subscribe1.png);
+  height: 302px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media (min-width: 492px) {
   .img-nw-right {
     height: 258px;
@@ -215,6 +238,10 @@ a:hover {
     padding: 0;
     margin: 0;
   }
+
+  #img-subscribe {
+    width: 100%;
+  }
 }
 
 .sign-up {
@@ -240,6 +267,20 @@ a:hover {
 
   .h4-nw-right {
     font-size: 17px;
+  }
+
+  .gray-container {
+    min-height: 302px;
+    max-height: 302px;
+    padding: 30px;
+  }
+
+  .newsletter-container {
+    justify-content: start;
+  }
+  
+  #img-subscribe {
+    width: none;
   }
 }
 

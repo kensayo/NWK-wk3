@@ -1,10 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
 
-a {
-  text-decoration: none;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -19,7 +15,6 @@ a:hover {
 }
 
 .footer-list-links li a {
-  text-decoration: none;
   color: #666;
   font-size: 14px;
   font-weight: 500;
@@ -33,22 +28,6 @@ a:hover {
   background-color: #f72210;
 }
 
-.f-white {
-  color: #fff !important;
-}
-
-.f-blue {
-  color: #3581f4;
-}
-
-.f-gray {
-  color: #807f84;
-}
-
-.f-black {
-  color: #000 !important;
-}
-
 .font-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -59,7 +38,6 @@ a:hover {
 }
 
 .navbar {
-  padding: 10px 15px;
   height: 50px;
   color: #fdc7c3;
 }
@@ -68,10 +46,6 @@ a:hover {
   object-fit: cover;
   width: 132px;
   height: 20px;
-}
-
-.section-rankings {
-  margin: auto;
 }
 
 .button {
@@ -84,8 +58,8 @@ a:hover {
   font-weight: 700;
 }
 
-.fs-16 {
-  font-size: 16px;
+.fs-15 {
+  font-size: 15px;
 }
 
 .fs-14 {
@@ -102,26 +76,13 @@ a:hover {
   font-size: 18px;
 }
 
-.date {
-  font-weight: 400;
-}
-
 .nav-list {
   height: 55px;
   padding-right: 76px;
 }
 
-.border-gray {
-  border-color: #f4f5f7;
-}
-
 .nav-list-bottom {
   height: 45px;
-}
-
-.nav-list-item {
-  font-size: 19px;
-  border-right: solid 1px #d9d9d9;
 }
 
 .nav-list a:hover {
@@ -137,9 +98,22 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.img-nw-right {
+  height: 110px;
+  width: 110px;
+}
+
+.h4-nw-right {
+  font-size: 17px;
+}
+
 .card-text {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 18px;
+}
+
+.of-cover {
+  object-fit: cover;
 }
 
 .debate-vs::before {
@@ -151,6 +125,35 @@ a:hover {
   content: "";
   width: 100%;
   margin-top: 14px;
+}
+
+.gray-container {
+  min-height: 450px;
+  padding: 30px;
+}
+
+.newsletter-img2 {
+  top: 8px;
+  left: 64px;
+}
+
+.img-subscribe {
+  background-image: url(../img/subscribe1.png);
+  height: 302px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 492px) {
+  .img-nw-right {
+    height: 258px;
+    width: 258px;
+  }
+
+  .h4-nw-right {
+    font-size: 21px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -174,38 +177,33 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
-
-  .section-rankings {
-    padding: 0;
-    margin: 0;
-  }
-}
-
-.sign-up {
-  max-width: 278px;
-  padding: 20px;
 }
 
 .icon {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  height: 25px;
-  width: 25px;
+  height: 29px;
+  width: 28px;
 }
 
 @media (min-width: 768px) {
   .button {
     font-size: 18px;
   }
-}
 
-p strong {
-  color: #666;
-  font-weight: bold;
-}
+  .img-nw-right {
+    height: 110px;
+    width: 110px;
+  }
 
-small {
-  color: #666;
-  font-weight: 500;
+  .h4-nw-right {
+    font-size: 17px;
+  }
+
+  .gray-container {
+    min-height: 302px;
+    max-height: 302px;
+    padding: 30px;
+  }
 }
 
 .bx::before {
@@ -223,10 +221,6 @@ small {
   color: #000;
 }
 
-.img-card {
-  position: relative;
-}
-
 .body-card p {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -234,26 +228,14 @@ small {
 
 .topic {
   background-color: #fffe;
-  padding: 4px 10px;
-  position: absolute;
   left: 0;
   bottom: 0;
 }
 
 @media screen and (min-width: 992px) {
-  .footer-list-links li {
-    border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
+  .img-nw-left {
+    height: 65%;
   }
-
-  .footer-list-links li:last-child {
-    border: none;
-  }
-}
-
-input {
-  border: none;
 }
 
 input:focus {
@@ -266,4 +248,39 @@ input:focus {
 
 .summary {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  height: 0;
+  padding-bottom: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.itm-1 {
+  background-image: url("https://d.newsweek.com/en/full/1699861/pro-trump-mob-seizes-capitol.webp");
+}
+
+.itm-2 {
+  background-image: url("https:/d.newsweek.com/en/full/1700564/trmpford.webp");
+}
+
+.itm-3 {
+  background-image: url("https://d.newsweek.com/en/full/1700594/trump-protest-capitol-washington.jpg");
+}
+
+.itm-4 {
+  background-image: url("https://d.newsweek.com/en/full/1706936/fe-american-coup-01-1230457776.jpg");
+}
+
+.itm-5 {
+  background-image: url("https://d.newsweek.com/en/full/1698197/libya-commander-war-funeral.jpg");
+}
+
+.itm-6 {
+  background-image: url("https://d.newsweek.com/en/full/1708426/per-london-warrwick-01.jpg");
+}
+
+.itm-7 {
+  background-image: url("https://d.newsweek.com/en/full/1706934/cul-rhye-01.jpg");
 }

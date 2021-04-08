@@ -133,13 +133,8 @@ a:hover {
 }
 
 .newsletter-img2 {
-  position: absolute;
   top: 8px;
   left: 64px;
-}
-
-.newsletter-container {
-  justify-content: center;
 }
 
 .img-subscribe {
@@ -209,10 +204,6 @@ a:hover {
     max-height: 302px;
     padding: 30px;
   }
-
-  .newsletter-container {
-    justify-content: start;
-  }
 }
 
 .bx::before {
@@ -230,10 +221,6 @@ a:hover {
   color: #000;
 }
 
-.img-card {
-  position: relative;
-}
-
 .body-card p {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -246,23 +233,9 @@ a:hover {
 }
 
 @media screen and (min-width: 992px) {
-  .footer-list-links li {
-    border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
-  }
-
-  .footer-list-links li:last-child {
-    border: none;
-  }
-
   .img-nw-left {
     height: 65%;
   }
-}
-
-input {
-  border: none;
 }
 
 input:focus {
@@ -278,8 +251,6 @@ input:focus {
 }
 
 .square {
-  position: relative;
-  width: 100%;
   height: 0;
   padding-bottom: 100%;
   object-fit: cover;

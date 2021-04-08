@@ -1,10 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
 
-a {
-  text-decoration: none;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -19,7 +15,6 @@ a:hover {
 }
 
 .footer-list-links li a {
-  text-decoration: none;
   color: #666;
   font-size: 14px;
   font-weight: 500;
@@ -33,30 +28,6 @@ a:hover {
   background-color: #f72210;
 }
 
-.bg-color-gray {
-  background-color: #f4f5f6;
-}
-
-.f-white {
-  color: #fff !important;
-}
-
-.f-blue {
-  color: #3581f4;
-}
-
-.f-gray {
-  color: #807f84;
-}
-
-.f-black {
-  color: #000 !important;
-}
-
-.f-red {
-  color: #f72210;
-}
-
 .font-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -67,7 +38,6 @@ a:hover {
 }
 
 .navbar {
-  padding: 10px 15px;
   height: 50px;
   color: #fdc7c3;
 }
@@ -78,10 +48,6 @@ a:hover {
   height: 20px;
 }
 
-.section-rankings {
-  margin: auto;
-}
-
 .button {
   background-color: #ffe400;
   padding: 5px 12px;
@@ -90,10 +56,6 @@ a:hover {
   margin: 0 15px;
   font-size: 13px;
   font-weight: 700;
-}
-
-.fs-16 {
-  font-size: 16px;
 }
 
 .fs-15 {
@@ -114,26 +76,13 @@ a:hover {
   font-size: 18px;
 }
 
-.date {
-  font-weight: 400;
-}
-
 .nav-list {
   height: 55px;
   padding-right: 76px;
 }
 
-.border-gray {
-  border-color: #f4f5f7;
-}
-
 .nav-list-bottom {
   height: 45px;
-}
-
-.nav-list-item {
-  font-size: 19px;
-  border-right: solid 1px #d9d9d9;
 }
 
 .nav-list a:hover {
@@ -233,20 +182,6 @@ a:hover {
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
   }
-
-  .section-rankings {
-    padding: 0;
-    margin: 0;
-  }
-
-  #img-subscribe {
-    width: 100%;
-  }
-}
-
-.sign-up {
-  max-width: 278px;
-  padding: 20px;
 }
 
 .icon {
@@ -280,16 +215,6 @@ a:hover {
   }
 }
 
-p strong {
-  color: #666;
-  font-weight: bold;
-}
-
-small {
-  color: #666;
-  font-weight: 500;
-}
-
 .bx::before {
   font-size: 32px;
   padding: 0 4px;
@@ -316,8 +241,6 @@ small {
 
 .topic {
   background-color: #fffe;
-  padding: 4px 10px;
-  position: absolute;
   left: 0;
   bottom: 0;
 }

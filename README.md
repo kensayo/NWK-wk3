@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@kensayo](https://github.com/kensayo)
 - Twitter: [@kensayo](https://twitter.com/kensayo)
-- LinkedIn: [Kenny Ortega](https://www.linkedin.com/in/kenny-ortega-3580aa33/)
+- LinkedIn: [Kenny Ortega](vhttps://www.linkedin.com/in/kennyortega/)
 
 👤 **Dante Alonso**
 
